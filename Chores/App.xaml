@@ -1,0 +1,14 @@
+﻿<Application
+    x:Class="Chores.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Chores"
+    RequestedTheme="Light">
+
+    <Application.Resources>
+        <x:String x:Key="chorePageTitle">Maryam Chores</x:String>
+        <SolidColorBrush x:Key="chorePageBg" Color="BlueViolet" />
+        <ImageBrush x:Key="chorePageBgImage" ImageSource="/Assets/Chores/1.jpg"/>
+        <ImageBrush x:Key="dino" ImageSource="/Assets/Animation/dino.png" />
+    </Application.Resources>
+</Application>
