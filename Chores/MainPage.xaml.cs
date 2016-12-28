@@ -28,11 +28,6 @@ namespace Chores
             this.InitializeComponent();
         }
 
-        private void Page_Loaded(object sender, RoutedEventArgs e)
-        {
-            
-        }
-
         private void button_Click(object sender, RoutedEventArgs e)
         {
             moveRight2Left.Begin();
